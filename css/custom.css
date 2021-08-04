@@ -1,0 +1,185 @@
+
+body {
+    background-color: rgba(182, 231, 243, 1.0);
+}
+
+h1, h2 {
+	font-family: cocaColaFont;
+}
+
+.main_contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    /* border-radius: .25rem;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(182, 231, 243, 1.0);
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color:  #760003; /* Font color for active font */
+    background-color: #3399ff; /* Blue color for background */
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .nav-link {
+    color: white;  
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+/* Added this to emulate the nav-bar link styling */
+.nav-tabs .nav-link:hover {
+    color: green;
+    border: 1px solid transparent;
+}
+
+/* coca cola logo custom design */
+.logo {
+    margin-top: 3px;
+}
+    
+.logo h1 {
+    font-family: cocaColaFont;
+    font-size: 31px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+    
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 31px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+}
+    
+.logo h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+    
+.logo p {
+    font-size: 7px; /* You may have to tweak this to get a good fit */
+    margin-top: 22px; /* You may have to tweak this to get a good fit */
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+}
+
+/* buttons setting for x3dom display */
+.camera-btns {
+    /* background-color: rgba(0, 0, 255, 0.3);  */
+    border-color: black; 
+    border-style: solid;
+    border-width: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.camera-btns > p  {
+    font-size: 15px;
+    color: red;
+    padding-left: 0px;
+    font-weight: 900; 
+}
+
+.camera-font {
+    font-weight: 400;   
+    color: white;
+}
+
+.camera-font:hover {
+    font-weight: 700;   
+    color: rgb(3, 3, 3);
+}
+
+.btn-responsive {
+    padding: 6px 10px;
+    font-size: 90%;
+    line-height: 1.2;
+    white-space: normal !important;
+}
+
+@font-face {
+	font-family: cocaColaFont;
+	src: url("../assets/fonts/loki_cola/LOKICOLA.TTF");
+}
+
+/* override x3dom.css for assignment */
+.gallery-header {
+    color: white;
+}
+
+.gallery-header:hover {
+    color: green;
+    border: 1px solid transparent;
+}
+
+.model3D  {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    height: 200px;
+}
+
+#main_image {
+    height: 200px;
+    /* background-color: #cccccc; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/images/main_3D.jpg");
+}
+#main_text {
+    float: left;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+#main_text h2 {
+    color: rgba(0,102,153,1);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#main_text h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#main_text p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.2;
+}
