@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
+    <script src="https://kit.fontawesome.com/c8197427c4.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <title>Parchment Receive</title>
@@ -17,34 +18,28 @@
 <body>
     <div class="container-fluid h-100">
         <div class="float-left">
-            <iframe class="responsive-iframe" src='lib/web/viewer.html?file=demo.pdf#zoom=80'></iframe>
+            <iframe class="responsive-iframe" src='lib/web/viewer.html?file=TWTE9UKO.pdf#zoom=80'></iframe>
         </div>
         <div class="float-right">
             <div class="content">
                 <div class="row">
-                    <button class="default">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-chevron-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                        </svg>
-                    </button>
+                    <div class="col-lg-12">
+                        <button style="float: right;" class="circle"><i class="fas fa-chevron-right"></i></button>
+                    </div>
                 </div>
                 <div class="row">
-                    <div style="float: left;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-clock" viewBox="0 0 16 16">
-                            <path
-                                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
-                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
-                        </svg>
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        </nav>
                     </div>
-                    <hr />
-                    <hr />
-                    <hr />
-                    <b>TIME SENSITIVE: </b>This download is only available for &nbsp;<b>16</b> &nbsp; more
-                    days</p3>
-                    <hr />
+                </div>
+                <div class="row">
+                    <span>
+                        <img src="./assets/images/clock.png"><b> &nbsp;TIME SENSITIVE: </b>This download is only
+                        available for
+                        &nbsp;<b>16</b> &nbsp; more
+                        days</p3>
+                    </span>
                 </div>
                 <hr class="soid" />
                 <div class="row">
@@ -66,15 +61,18 @@
                 </div>
                 <hr class="soid" />
                 <div class="row">
-                    <h4>Documents in this delivery package</h4>
-                </div>
-                <hr />
-                <div class="row">
-                    <button class="btn btn-success"> Download </button>
-                </div>
-                <hr />
-                <div class="row">
-                    <button class="btn btn-success">Chat</button>
+                    <h5>Documents in this delivery package</h5>
+                    <div class="row">
+                        <a><img src="./assets/images/vertical.png" style="text-align: center;"></a>
+                        <span>
+                            <div>
+                                <i class="far fa-file-pdf"></i>&nbsp;PDF
+                                <p>TWTE9UKO.pdf <br />
+                                    Delivery ID: TWTE9UKO</p>
+                                <button class="btn btn-success"><i class="fa fa-download"></i> Download</button>
+                            </div>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
